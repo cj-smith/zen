@@ -1,0 +1,239 @@
+/* Chad's Journal CSS
+*/      
+
+
+  /*  ===================================
+      general
+      =================================== */
+
+      * {
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      h5 {
+        font-weight: 100;
+      }
+
+      .container {
+        background-color: rgba(150, 217, 255, .5);
+        /*border: 1px solid tomato;*/
+        border: 2px solid #000;
+        max-width: 64em;
+        margin: 0 auto;
+        /*padding: 0 0;*/
+        
+      }
+
+      .title,
+      .info, {
+        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                     0px 8px 13px rgba(0,0,0,0.1),
+                     0px 18px 23px rgba(0,0,0,0.1);
+      }
+      
+      .articleTitle,
+      .articleSubtitle {
+        text-shadow: 3px 3px 10px #919191;
+      }
+
+      header, footer {
+        clear: left;
+      }
+
+  /*  ===================================
+      header
+      =================================== */
+
+      header {
+        margin: 0 0 30px 0;
+        border-bottom: 10px solid lightslategrey;
+        /*padding: 5px 5px;*/
+        /*max-width: 200em;*/
+        /*background-color: #008eff;*/
+        background: #008eff url('../header.jpg') no-repeat top;
+        color: #fff;
+        float: left;
+        /*display: block;*/
+        width: 100%;
+        /*height: 200px;*/
+        
+      }
+
+      /*header  .title,
+              .info {
+                text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                             0px 8px 13px rgba(0,0,0,0.1),
+                             0px 18px 23px rgba(0,0,0,0.1);
+              }*/
+
+      .title {
+        width: 65%;
+        /*height: 100px;*/
+        float: left;
+        margin: auto 0;
+        padding: 30px 20px;
+        /*display: inline-block;*/
+        /*border: 2px solid yellow;*/
+      }
+
+      .info {
+        width: 35%;
+        
+        float: left;
+        padding: 30px 10px;
+        /*border: 2px solid yellow; */
+      }
+
+      .info ul {
+        list-style: none;
+      }
+
+      .info ul li {
+        display: inline-block;
+        padding: 0 2px;
+      }
+
+
+
+  /*  ===================================
+      nav
+      =================================== */
+
+      nav {
+        float: left;
+        margin: 5px 2.5%;
+        width: 30%;
+        /*background-color: lightgrey;*/
+      }
+
+      nav ul {
+        list-style: none;
+      }
+
+      nav ul li {
+        margin: 2px 0;
+      }
+
+      nav img {
+        display: block;
+        margin: 5px auto;
+        max-width: 80%;
+
+      }
+
+
+
+  /*  ===================================
+      section
+      =================================== */
+
+      .articleContainer {
+        
+        /*background-color: lightyellow;*/
+        float: left;
+        margin: auto;
+        width: 60%;
+        color: #0f0f0f;
+
+        
+      }
+
+  /*  ===================================
+      article
+      =================================== */
+
+      article {
+        margin-bottom: 50px;
+      }
+
+      .articleContent {
+        padding: 0 .4em;
+      }
+
+      article img {
+        float: right;
+        width: 200px;
+        margin: 0 0 10px 10px;
+        display: inline-block;
+      }
+
+      .articleFooter {
+
+      }
+
+
+
+
+  /*  ===================================
+      footer
+      =================================== */
+
+      footer {
+        font-size: 1.75em;
+        text-align: center;
+        clear: both;
+        margin: 10px 0 30px 0;
+        padding-top: 50px;
+        color: #ccc;
+      }
+
+      footer p {
+        font-size: .4em;
+      }
+
+
+
+
+  /*  ===================================
+      colors
+      =================================== */
+
+      /* .info link */
+      header a, header a:visited {
+        color: #fff;
+      }
+
+      /* selected .info link */
+      header a.selected, header a:hover {
+        color: #ffab00;
+      }
+
+      /* body link */
+      a, a:visited {
+        color: #0c0c0c;
+      }
+
+      /* selected body link */
+      a.selected, a:hover {
+        color: #ff9100;
+      }
+
+
+     
+
+  /*  ===================================
+      float clearfix
+      =================================== */
+
+      .group:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+
+
+
+
+
+
+
