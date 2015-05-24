@@ -42,7 +42,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ffb92a;
+    border-top: 1px solid #B27268;
     margin: 1em 0;
     padding: 0;
 }
@@ -114,7 +114,7 @@ textarea {
       }
 
       .container {
-        background-color: rgba(150, 217, 255, .5);
+        background-color: #DCFFF0;
         border: 2px solid #000;
         max-width: 64em;
         margin: 0 auto;
