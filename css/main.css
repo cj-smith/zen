@@ -228,7 +228,13 @@ textarea {
       links
       =================================== */    
 
-     
+      .linkList {
+        list-style: none;
+      }
+
+      .linkList li {
+        margin-bottom: 5px;
+      }
 
 
 
@@ -238,8 +244,14 @@ textarea {
       feedback
       =================================== */
 
+      .feedback {
+        margin: 0 5%;
+        height: 785px; 
+        width: 90%;
+        position: relative;
+      }
 
-
+      
 
 
 
