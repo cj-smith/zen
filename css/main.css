@@ -157,16 +157,16 @@ textarea {
       }*/
 
       .nav {
-        position: fixed;
+        /*position: fixed;*/
         width: 40%;
         float: right;
-        margin: 0px 2.5%;
+        /*margin: 0px 2.5%;*/
         padding: 0px 0px;
-        margin-left: 50%;
+        /*margin-left: 50%;*/
         color: #4A302B;
         /*background-color: #DCFFF0;*/
         z-index: 10;
-        /*border: 2px solid yellow;*/ 
+        /*border: 2px solid yellow; */
       }
 
       .nav ul {
@@ -213,9 +213,9 @@ textarea {
       .sectionContainer {
         
         /*background-color: lightyellow;*/
-        float: right;
+        float: left;
         margin: auto;
-        width: 50%;
+        width: 60%;
         color: #0f0f0f;
 
         
